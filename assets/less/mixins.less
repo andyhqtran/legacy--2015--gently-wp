@@ -1,0 +1,57 @@
+.background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.border-radius( @radius: 3px; ) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.box-shadow( @h-shadow: 0px; @v-shadow: 1px; @blur: 2px; @spread: 0px; @color: fade(@black, 15%); ) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.box-shadow-inset( @h-shadow: 0px; @v-shadow: 1px; @blur: 2px; @spread: 0px; @color: fade(@black, 15%); ) {
+  -webkit-box-shadow: inset @arguments;
+  -moz-box-shadow: inset @arguments;
+  box-shadow: inset @arguments;
+}
+
+.box-shadow-none() {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.transitions( @property: all; @duration: 0.3s; @timing: ease; @delay: 0s; ) {
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -ms-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
+}
+
+.animation( @animation_name; @duration: 1s; @timing_function: ease ) {
+  -webkit-animation: @animation_name @duration @timing_function;
+  -moz-animation: @animation_name @duration @timing_function;
+  -ms-animation: @animation_name @duration @timing_function;
+  -o-animation: @animation_name @duration @timing_function;
+  animation: @animation_name @duration @timing_function;
+}
+
+.box-sizing( @property: border-box; ) {
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
