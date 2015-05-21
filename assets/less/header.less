@@ -2,6 +2,7 @@
 	background: @white;
 	border: 0;
 	.box-shadow-none;
+	.transitions;
 	.navbar-header {
 	    .navbar-toggle {
 	      	margin: 23px 15px 0 8px;
@@ -117,6 +118,11 @@
 				}
 			}
 		}
+	}
+	.fixed-navbar &,
+	.fixed-navbar.home & {
+		&:extend(.navbar all);
+		.box-shadow;
 	}
 }
 
