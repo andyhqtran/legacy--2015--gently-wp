@@ -14,4 +14,16 @@ $( document ).ready(function() {
 	    $(this).parent().toggleClass('open');
 	    $(this).parent().find("ul").parent().children("form").toggleClass('open');
 	});
+
+
+  $(window).scroll(function() {
+    // Fixed Navigation
+    var windowsize = $(window).width();
+    if (windowsize > 768) {
+	    if ($(window).scrollTop() > 0) {
+	        $('body').addClass('fixed-navbar');
+	    } else {
+	        $('body').removeClass('fixed-navbar');
+	    }
+    }
 });
