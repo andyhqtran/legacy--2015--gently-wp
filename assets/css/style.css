@@ -568,3 +568,42 @@ section .section-header h2 {
   display: block;
   width: 100%;
 }
+.footer {
+  background: #464d57;
+  color: #ffffff;
+  text-align: center;
+}
+.footer .footer-text {
+  padding: 180px 0;
+}
+.footer .footer-text h2 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-size: 36px;
+}
+.footer .footer-text p {
+  margin: 0 0 60px;
+  color: #a4acb4;
+  font-size: 20px;
+}
+.footer .footer-text .footer-btn {
+  background: #29C3CB;
+  padding: 20px 40px;
+  -webkit-box-shadow: 0px 4px 0 0px #209aa1;
+  -moz-box-shadow: 0px 4px 0 0px #209aa1;
+  box-shadow: 0px 4px 0 0px #209aa1;
+  color: #ffffff;
+  font-size: 16px;
+}
+.footer .footer-bottom {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 90px 0;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.footer .footer-bottom a {
+  color: #48d2bd;
+  font-weight: 700;
+  text-decoration: none;
+}
