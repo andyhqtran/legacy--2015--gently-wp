@@ -44,9 +44,22 @@ h6 {
   font-weight: 700;
   line-height: 1.2em;
   text-transform: uppercase;
-  -webkit-box-shadow: 0px 4px 0 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 4px 0 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 4px 0 0px rgba(0, 0, 0, 0.15);
+}
+.btn.btn-red,
+#featured .project-btn {
+  background: #ef5030;
+  -webkit-box-shadow: 0px 4px 0 0px #c32d0f;
+  -moz-box-shadow: 0px 4px 0 0px #c32d0f;
+  box-shadow: 0px 4px 0 0px #c32d0f;
+  color: #ffffff;
+}
+.btn.btn-teal,
+.footer .footer-text .footer-btn {
+  background: #29c3cb;
+  -webkit-box-shadow: 0px 4px 0 0px #209aa1;
+  -moz-box-shadow: 0px 4px 0 0px #209aa1;
+  box-shadow: 0px 4px 0 0px #209aa1;
+  color: #ffffff;
 }
 /* END Button */
 /* Form Group */
@@ -516,13 +529,6 @@ section .section-header h2 {
   font-weight: 600;
   line-height: 2.45em;
 }
-#featured .project-btn {
-  background: #ef5030;
-  color: #ffffff;
-  -webkit-box-shadow: 0px 4px 0 0px #c32d0f;
-  -moz-box-shadow: 0px 4px 0 0px #c32d0f;
-  box-shadow: 0px 4px 0 0px #c32d0f;
-}
 #featured .featured-project-thumbnail .macbook {
   background: url('../img/3.png') no-repeat;
   width: 601px;
@@ -587,12 +593,7 @@ section .section-header h2 {
   font-size: 20px;
 }
 .footer .footer-text .footer-btn {
-  background: #29C3CB;
   padding: 20px 40px;
-  -webkit-box-shadow: 0px 4px 0 0px #209aa1;
-  -moz-box-shadow: 0px 4px 0 0px #209aa1;
-  box-shadow: 0px 4px 0 0px #209aa1;
-  color: #ffffff;
   font-size: 16px;
 }
 .footer .footer-bottom {

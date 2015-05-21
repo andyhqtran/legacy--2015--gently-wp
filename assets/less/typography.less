@@ -46,7 +46,16 @@ h6 {
 	font-weight: @bold;
 	line-height: 1.2em;
 	text-transform: uppercase;
-	.box-shadow(@v-shadow: 4px; @blur: 0;)
+	&.btn-red {
+		background: @red;
+		.box-shadow(@v-shadow: 4px; @blur: 0; @color: darken(@red, 15%););
+		color: @white;
+	}
+	&.btn-teal {
+		background: @teal;
+		.box-shadow(@v-shadow: 4px; @blur: 0; @color: darken(@teal, 10%););
+		color: @white;
+	}
 }
 /* END Button */
 
