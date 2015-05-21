@@ -1,8 +1,41 @@
 .hero {
-	h1 {}
-	p {}
+	background: @accent url('../img/1.1.png') bottom center no-repeat;
+	padding: 215px 0 300px;
+	color: @white;
+	h1 {
+		margin: 0 0 40px;
+		font-size: 36px;
+	}
+	p {
+		margin: 0 0 40px;
+		color: #d6f2e4;
+		font-size: 20px;
+	}
 	.btn-group {
-		.btn-hero {}
-		span {}
+		a {
+			color: @white;
+			text-decoration: none;
+			&.btn-hero {
+				display: inline-block;
+				outline: none;
+				background: none;
+				width: 68px;
+				height: 68px;
+				padding: 0;
+				border: 2px solid @white;
+				.border-radius(100%) !important;
+				.box-shadow-none;
+				margin: 0 16px 0 0;
+				font-size: 18px;
+				line-height: 68px;
+				float: none;
+				.animation(float; infinite; 3s; ease;);
+				&:before {
+					content: '';
+					font-family: 'FontAwesome';
+					.font-smoothing;
+				}
+			}
+		}
 	}
 }

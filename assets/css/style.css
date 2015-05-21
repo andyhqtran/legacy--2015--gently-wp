@@ -147,6 +147,54 @@
     display: block;
   }
 }
+.hero {
+  background: #48d2bd url('../img/1.1.png') bottom center no-repeat;
+  padding: 215px 0 300px;
+  color: #ffffff;
+}
+.hero h1 {
+  margin: 0 0 40px;
+  font-size: 36px;
+}
+.hero p {
+  margin: 0 0 40px;
+  color: #d6f2e4;
+  font-size: 20px;
+}
+.hero .btn-group a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.hero .btn-group a.btn-hero {
+  display: inline-block;
+  outline: none;
+  background: none;
+  width: 68px;
+  height: 68px;
+  padding: 0;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  border-radius: 100% !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin: 0 16px 0 0;
+  font-size: 18px;
+  line-height: 68px;
+  float: none;
+  -webkit-animation: float 3s ease;
+  -moz-animation: float 3s ease;
+  -ms-animation: float 3s ease;
+  -o-animation: float 3s ease;
+  animation: float 3s ease;
+}
+.hero .btn-group a.btn-hero:before {
+  content: '';
+  font-family: 'FontAwesome';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 body {
   background: #f2f2f2;
   font-family: 'Proxima Nova', sans-serif;
