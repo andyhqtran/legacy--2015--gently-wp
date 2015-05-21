@@ -1,5 +1,5 @@
 body {
-	background: darken(@white, 5%);
+	background: @white;
 	font-family: 'Proxima Nova', sans-serif;
 	.font-smoothing;
 	font-size: 14px;
@@ -41,6 +41,12 @@ h6 {
 
 /* Button */
 .btn {
+	padding: 16px 25px;
+	font-size: 14px;
+	font-weight: @bold;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	.box-shadow(@v-shadow: 4px; @blur: 0;)
 }
 /* END Button */
 
