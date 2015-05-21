@@ -2,6 +2,7 @@ body {
 	background: @white;
 	font-family: 'Proxima Nova', sans-serif;
 	.font-smoothing;
+	color: @light_gray;
 	font-size: 14px;
 	font-weight: @regular;
 	line-height: 1.8em;
@@ -9,6 +10,7 @@ body {
 
 /* Heading */
 h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px;
 	color: @gray;
 	font-family: 'Varela Round', sans-serif;
 	font-weight: @regular;
@@ -78,3 +80,24 @@ pre {
 	border: 1px solid fade(@black, 5%);
 }
 /* END Pre */
+
+/* Quoteblock */
+quoteblock {
+	display: block;
+	margin: 30px 0 30px 30px;
+	border-left: 2px solid #cbff8d;
+	padding: 15px 30px;
+	color: @gray;
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+	.author {
+		display: block;
+		margin: 10px 0 0;
+		font-size: 14px;
+		font-style: italic;
+		&:before {
+			content: '- '
+		}
+	}
+}
+/* END Quoteblock */
