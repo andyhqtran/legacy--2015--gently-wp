@@ -9,7 +9,7 @@
   margin: 23px 15px 0 8px;
 }
 .navbar .navbar-header .navbar-toggle .icon-bar {
-  background: #636363;
+  background: #707981;
 }
 .navbar .navbar-header .navbar-brand {
   height: auto;
@@ -209,6 +209,63 @@
 }
 .page-header p {
   margin: 0;
+}
+section .section-header h2 {
+  font-size: 36px;
+}
+#featured .row:first-child .featured-project:after,
+#featured .row:nth-child(1) .featured-project:after,
+#featured .row:nth-child(2) .featured-project:after,
+#featured .row:nth-child(3) .featured-project:after,
+#featured .row:nth-child(4) .featured-project:after,
+#featured .row:last-child .featured-project:after,
+#featured .row:first-child .section-header:before,
+#featured .row:nth-child(1) .section-header:before,
+#featured .row:nth-child(2) .section-header:before,
+#featured .row:nth-child(3) .section-header:before,
+#featured .row:nth-child(4) .section-header:before,
+#featured .row:last-child .section-header:before,
+#featured .row:first-child .section-header:after,
+#featured .row:nth-child(1) .section-header:after,
+#featured .row:nth-child(2) .section-header:after,
+#featured .row:nth-child(3) .section-header:after,
+#featured .row:nth-child(4) .section-header:after,
+#featured .row:last-child .section-header:after {
+  content: '';
+  display: block;
+  background: url('../img/2.png') no-repeat;
+  width: 918px;
+  margin: 0 auto;
+}
+#featured .row:first-child .section-header:before,
+#featured .row:nth-child(1) .section-header:before {
+  height: 90px;
+  margin: 50px auto;
+}
+#featured .row:first-child .section-header:after,
+#featured .row:nth-child(1) .section-header:after {
+  background-position: 0 -217px;
+  height: 138px;
+  margin: 50px auto;
+}
+#featured .row:nth-child(2) .featured-project:after {
+  background-position: 0 -355px;
+  height: 213px;
+}
+#featured .row:nth-child(3) .featured-project:after {
+  background-position: 0 -568px;
+  height: 215px;
+}
+#featured .row:nth-child(4) .featured-project:after,
+#featured .row:last-child .featured-project:after {
+  background-position: 0 -783px;
+  height: 178px;
+}
+#featured .section-header {
+  text-align: center;
+}
+#featured .section-header h2 .fa {
+  color: #29c3cb;
 }
 body {
   background: #f2f2f2;
