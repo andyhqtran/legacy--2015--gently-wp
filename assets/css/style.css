@@ -426,6 +426,9 @@ pre {
 section .section-header h2 {
   font-size: 36px;
 }
+#featured {
+  margin: 0 0 90px;
+}
 #featured .row:first-child .featured-project:after,
 #featured .row:nth-child(1) .featured-project:after,
 #featured .row:nth-child(2) .featured-project:after,
