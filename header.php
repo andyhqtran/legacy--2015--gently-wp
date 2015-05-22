@@ -37,8 +37,8 @@
 				<h1><?php $page_title_value = get_post_custom_values('page_title');foreach ($page_title_value as $key => $value) {echo "$value";}?></h1>
 				<p><?php $secondary_title_value = get_post_custom_values('secondary_title');foreach ($secondary_title_value as $key => $value) {echo "$value";}?></p>
 				<div class='btn-group'>
-				  <a class='btn btn-hero' href='#'></a>
-				  <a>See our case studies</a>
+				  <a class='btn btn-hero' href='#featured'></a>
+				  <a href='#featured'>See our case studies</a>
 				</div>
 			  </div>
 			</div>
