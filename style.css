@@ -612,7 +612,7 @@ section.banner .btn {
 #featured .row:last-child .section-header:after {
   content: '';
   display: block;
-  background: url('../img/2.png') no-repeat;
+  background: url('assets/img/2.png') no-repeat;
   width: 918px;
   margin: 0 auto;
 }
@@ -681,7 +681,7 @@ section.banner .btn {
   line-height: 2.45em;
 }
 #featured .featured-project-thumbnail .macbook {
-  background: url('../img/3.png') no-repeat;
+  background: url('assets/img/3.png') no-repeat;
   width: 601px;
   height: 345px;
   margin: 0 0 0 auto;
@@ -695,7 +695,7 @@ section.banner .btn {
   height: 286px;
 }
 #featured .featured-project-thumbnail .browser {
-  background: url('../img/4.png');
+  background: url('assets/img/4.png');
   width: 487px;
   height: 314px;
   padding: 33px 1px 0;
@@ -712,7 +712,7 @@ section.banner .btn {
   position: relative;
   z-index: 1;
   display: block;
-  background: url('../img/4.1.png');
+  background: url('assets/img/4.1.png');
   width: 601px;
   height: 4px;
   margin: -4px 0 0 -57px;
