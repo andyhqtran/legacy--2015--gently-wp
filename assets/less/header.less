@@ -37,7 +37,10 @@
 						background: 0;
 						color: @accent;
 					}
-					&.navbar-btn {
+				}
+				&.navbar-btn {
+					a {
+						&:extend(.btn);
 						background: @accent;
 						border: 0;
 						margin: 35px 0;
@@ -101,10 +104,6 @@
 				li {
 					a {
 						color: #b9f2e9;
-						&.navbar-btn {
-							background: @white;
-							color: @accent;
-						}
 						&:hover,
 						&:active,
 						&:focus {
@@ -114,6 +113,12 @@
 					&.active {
 						a {
 							color: @white;
+						}
+					}
+					&.navbar-btn {
+						a {
+							background: @white;
+							color: @accent;
 						}
 					}
 				}

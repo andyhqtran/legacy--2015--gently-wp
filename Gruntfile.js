@@ -11,20 +11,38 @@ module.exports = function(grunt) {
           sourceMap: false
         },
         files: {
-          "assets/css/style.css": "assets/less/style.less"
+          "style.css": "assets/less/style.less"
         }
       }
     },
     haml: {
       dist: {
         files: {
-          'index.html': 'index.haml'
+          'assets/haml/html/index.html': 'assets/haml/index.haml',
+          'assets/haml/html/header.html': 'assets/haml/header.haml',
+          'assets/haml/html/footer.html': 'assets/haml/footer.haml',
+
+          'assets/haml/html/page-home.html': [
+            'assets/haml/header.haml',
+            'assets/haml/navbar.haml',
+            'assets/haml/hero.haml',
+            'assets/haml/page-home.haml',
+            'assets/haml/footer.haml'
+          ],
+
+          'assets/haml/html/page-about.html': [
+            'assets/haml/header.haml',
+            'assets/haml/navbar.haml',
+            'assets/haml/page-header.haml',
+            'assets/haml/page-about.haml',
+            'assets/haml/footer.haml'
+          ]
         }
       }
     },
     watch: {
       styles: {
-        files: ['assets/less/*.less', '*.haml'],
+        files: ['assets/less/*.less', 'assets/haml/*.haml'],
         tasks: ['less', 'haml'],
         options: {
           nospawn: true,
