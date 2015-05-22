@@ -32,6 +32,8 @@ if (!function_exists('gently_setup')):
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		)));
+
+		add_theme_support('woocommerce');
 	}
 endif;
 add_action('after_setup_theme', 'gently_setup');
@@ -101,12 +103,6 @@ remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrap
 
 add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
-
-add_action('after_setup_theme', 'woocommerce_support');
-
-function gently_woocommerce_support() {
-	add_theme_support('woocommerce');
-}
 
 function gently_woocommerce_wrapper_start() {
 	echo '
