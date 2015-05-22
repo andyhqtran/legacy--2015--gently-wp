@@ -457,7 +457,7 @@ quoteblock .author:before {
   -moz-osx-font-smoothing: grayscale;
 }
 .page-header {
-  background-image: url('../img/1.png');
+  background-image: url('assets/img/1.png');
   padding: 215px 0 100px;
 }
 .page-header h1 {
@@ -658,13 +658,13 @@ section.banner .btn {
 .author .author-name {
   margin: 0;
 }
-.author .author-title {
+.author .author-position {
   margin: 0 0 10px;
   color: #a4acb4;
   font-size: 12px;
   font-weight: 700;
 }
-.author .author-title:before {
+.author .author-position:before {
   content: '';
   display: inline-block;
   background: #fda720;
@@ -676,7 +676,7 @@ section.banner .btn {
   border-radius: 100%;
   vertical-align: middle;
 }
-.author .author-description {
+.author .author-bio {
   color: #a3abb3;
   font-size: 14px;
 }
