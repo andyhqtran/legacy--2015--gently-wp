@@ -49,8 +49,13 @@
 		 	<div class='container'>
 		    	<div class='row'>
 		      		<div class='col-md-12'>
-		        		<h1><?php $page_title_value = get_post_custom_values('page_title');foreach ($page_title_value as $key => $value) {echo "$value";}?></h1>
-		        		<p><?php $secondary_title_value = get_post_custom_values('secondary_title');foreach ($secondary_title_value as $key => $value) {echo "$value";}?></p>
+		      			<?php if (is_shop()): ?>
+		      				<h1>Our Shop</h1>
+		      				<p>Take a look at all our beautiful products below.</p>
+			        	<?php else: ?>
+			        		<h1><?php $page_title_value = get_post_custom_values('page_title');foreach ($page_title_value as $key => $value) {echo "$value";}?></h1>
+			        		<p><?php $secondary_title_value = get_post_custom_values('secondary_title');foreach ($secondary_title_value as $key => $value) {echo "$value";}?></p>
+			        	<?php endif; ?>
 		      		</div>
 		    	</div>
 		  	</div>
